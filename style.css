@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+    background-color:#f0ecec;
+    background-size: cover;
+
 
 }
 .menu-bar{
@@ -24,4 +27,14 @@
 .menu-bar a: hover{
     color: #4012e6;
 
+}
+
+article{
+    padding: 100% ,13px;
+}
+.main-logo{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
