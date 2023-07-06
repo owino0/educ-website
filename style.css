@@ -11,13 +11,27 @@
 
 
 }
+header{
+    padding: 80px 13%;
+}
+section{
+    padding: 80px 13%;
+}
+.button-2{
+    padding: 80px 13%;
+}
+.main-image{
+    height: auto;
+    width: 40%;
+    float: right;
+}
 .menu-bar{
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     transition: 0.10ms ease-in-out;
-    
+    padding: 80px 13% ;
 }
 .menu-bar ul{
     font-size: 20;
@@ -30,11 +44,27 @@
 }
 
 article{
-    padding: 100% ,13px;
+padding: 80px 13%;
 }
 .main-logo{
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    size: 10px;
+
 }
+aside{
+    padding: 80px 13%;
+}
+.final-item{
+    
+    display:grid;
+    grid-template-columns: 10px ,10px ,10px;
+    float: right;
+    
+    
+    
+}
+
+
