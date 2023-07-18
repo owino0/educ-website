@@ -20,6 +20,8 @@ section{
 .button-2{
     padding: 80px 13%;
 }
+
+
 .main-image{
     height: auto;
     width: 40%;
@@ -38,7 +40,7 @@ section{
     font: weight 500px; ;
     padding: 10px 22px;
 }
-.menu-bar a:hover{
+.menu-bar li a: hover{
     color: #4012e6;
 
 }
@@ -46,13 +48,32 @@ section{
 article{
 padding: 80px 13%;
 }
-.main-logo{
+.main-logo {
 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     size: 10px;
+    padding: 10px 20px;
+    
 
+}
+.google-logo{
+    padding: 20px;
+
+}
+.udemy-logo{
+    padding: 20px;
+}
+.slack-logo{
+    padding: 20px;
+}
+.havard-logo{
+    padding: 20px;
+}
+h4{
+    padding: 20px;
+    display: block;
 }
 aside{
     padding: 80px 13%;
@@ -65,6 +86,35 @@ aside{
     
     
     
+}
+.button-1{
+    position: absolute;
+    top:0px ;
+    right: 0px;
+    border:none;
+    background: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s ease;
+}
+.button-1:hover{
+    cursor: pointer;
+    
+
+}
+.button-2{
+    border: none;
+
+}
+/* .group-image{ */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+.group-image{
+    float: left;
 }
 
 
